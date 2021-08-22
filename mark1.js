@@ -52,6 +52,7 @@ function myQuiz() {
     "Press 'R' to replay and 'Q' to quit \n=>"
   );
   if (replay.toUpperCase() == "R") {
+    score = 0;
     myQuiz();
   }
 }
